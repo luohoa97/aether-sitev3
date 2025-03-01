@@ -39,4 +39,7 @@ export default defineConfig({
       provider: 'local'
     }
   },
+  build: {
+    outDir: './dist'
+  }
 })
