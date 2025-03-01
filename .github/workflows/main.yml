@@ -25,6 +25,9 @@ jobs:
 
       - run: pnpm run docs:build
 
+      - name: Check if dist exists
+        run: ls
+
       - uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
