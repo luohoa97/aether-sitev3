@@ -26,7 +26,7 @@ jobs:
 
       - run: pnpm install
 
-      - run: pnpm run docs:build
+      - run: npm run docs:build
 
       - name: Check if dist exists
         run: ls
